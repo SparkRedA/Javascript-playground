@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 3em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  color: green;
+  align-self: center;
+}
+
+.challengeList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.challenge {
+  border-radius: 1em;
+  border-style: solid;
+  max-width: 60%;
+  padding: 2em;
+  margin: 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightseagreen;
+}
+
+.challengeTitle {
+  border: 1px hwb(108 6% 31%) groove;
+  border-radius: 10em;
+  padding: 1em;
+  margin: 1em;
+  background-color: aqua;
+}
+
+.moveChallenge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  border-radius: 10em;
+  font-family: Roboto, sans-serif;
+}
+
+.box {
+  display: flex;
+  border: blue 2px;
+  border-style: dashed;
+  padding: 3em;
+  margin: 1em;
+  width: 3em;
+  height: 3em;
+  align-items: center;
+  justify-content: center;
+}
+
+.target {
+  border: blue 2px;
+  border-style: groove;
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.results {
+  max-width: 30em;
+  min-width: 10em;
+  text-align: center;
+}
+
+.results th,
+.results td {
+  border: black 0.2em;
+  border-style: ridge;
+  max-width: 30em;
+  min-width: 10em;
+}
+
+#theThing {
+  min-width: 2em;
+  max-width: 2em;
+}
